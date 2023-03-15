@@ -222,7 +222,7 @@ cursor:pointer; cursor: hand;
     border-radius: 90%;
     top: -20%;
     left:-20%;
-    z-index:20;
+    z-index:7;
     background-image:url("fondo.jpg");
     background-repeat: no-repeat;
   
