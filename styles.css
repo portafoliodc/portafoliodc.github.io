@@ -220,7 +220,7 @@ cursor:pointer; cursor: hand;
     position: absolute;
     top: -22.5%;
     left: -22.5%;
-    z-index:7;
+    z-index:20;
   
     /* box-shadow: 20px 20px 5px rgb(115, 113, 113); */
   }
