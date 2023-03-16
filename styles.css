@@ -1,5 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css?family=Impact');
+
+@font-face {
+  font-family: "Impact";
+  src: url("https://portafoliodc.github.io/impact.ttf");
+}
 
 body {
     background-color:black;  
