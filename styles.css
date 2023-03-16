@@ -1,0 +1,288 @@
+
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+body {
+    background-color:black;  
+    overflow: hidden;   /* ocultamos la barra de navegación */
+   
+  }
+ 
+  .principal{
+    top: -20%;
+    left: -20%;
+
+  }
+  #contenedorLogo{
+   /* display: flex;
+    flex-direction: column;    */
+    top: -2%;
+    right: 0%;
+    position:absolute;
+    z-index:18;
+ 
+  }
+
+
+.logo{ 
+  color:rgb(255, 51, 153);
+  font-size: 700%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.logoD{
+ position: absolute;
+
+ top:80%;
+ right:38%;
+ 
+  color:rgb(255, 51, 153);
+  font-size: 200%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.logoC{
+  position: absolute;
+  top:100%;
+  right:32%;
+  
+   color:rgb(255, 51, 153);
+   font-size: 200%;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+
+#contenedorCorreo{
+  bottom: 2%;
+  right: 20%;
+  position:absolute;
+  z-index:12;
+}
+#titulo{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:120%;
+}
+
+
+.botones{
+  bottom: 2%;
+  right: 0%;
+  position:absolute;
+  z-index:11;    
+}
+@media (min-width: 300px)  and (max-width: 600px) {
+  .botones{
+    top: 0%;
+    left: 0%;
+    position:absolute;
+    z-index:19;   
+  }
+}
+a {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: larger;
+color: darkgray;
+}
+
+
+a:hover {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: larger;
+color: rgb(255, 51, 153);
+cursor:pointer; cursor: hand;
+}
+
+
+#mostrarDesarrolloWeb, #mostrartecnico, #mostrarAbout {
+ 
+  color: white;
+  align-items: center;
+  width: 200px;
+  height: 500px;   
+  position: absolute;
+  top: 15%;
+  right:11%;
+  z-index:16;
+}
+
+@media (min-width: 300px)  and (max-width: 600px) {
+  #mostrarDesarrolloWeb, #mostrartecnico, #mostrarAbout {
+    color: white;
+    align-items: right;
+    width: 400px;
+    height: 400px;   
+    position: absolute;
+    top: 20%;
+    left:10%;
+    z-index:17;
+  }
+
+}
+
+
+
+
+/* animacion */
+#mov {
+  animation-duration: 55s;
+  animation-name: animLogo;
+  animation-iteration-count: infinite;
+}
+@keyframes animLogo{
+
+    from {
+        transform: translate(0,0);
+        -webkit-transform: translate(0,0);
+          }
+   50%  {
+            transform: translate(60px, 60px);
+            -webkit-transform: translate(60px, 60px);
+             } 
+    to {
+              transform: translate(0,0);
+              -webkit-transform: translate(0,0);
+                }                 
+
+}
+
+  /*zona de diseño de los circulos */
+  .circuloA {
+    width: 1000px;
+    height: 1000px;
+    background-color: rgb(78, 77, 77);
+    position: absolute;
+    border-radius: 90%;
+    top: -20%;
+    left: -20%;
+    z-index:1;
+    /* box-shadow: 20px 20px 5px rgb(26, 23, 23); */
+  }  
+  .circuloAB {
+    width: 925px;
+    height: 925px;
+    background-color: rgb(100, 93, 97);
+    position: absolute;
+    border-radius: 90%;
+    top: -20%;
+    left: -20%;
+    z-index:2;
+    /* box-shadow: 20px 20px 5px rgb(26, 23, 23); */
+  }  
+
+
+  .circuloB {
+    width: 850px;
+    height: 850px;
+    background-color: rgb(233, 40, 169);
+    position: absolute;
+    border-radius: 90%;
+    top: -20%;
+    left: -20%;
+    z-index:3;
+    /* box-shadow: 20px 20px 5px rgb(125, 54, 86); */
+  }  
+ 
+  .circuloBC {
+    width: 775px;
+    height: 775px;
+    background-color: rgb(234, 64, 190);
+    position: absolute;
+    border-radius: 90%;
+    top: -20%;
+    left: -20%;
+    z-index:4;
+    /* box-shadow: 20px 20px 5px rgb(125, 54, 86); */
+  }  
+  
+  .circuloC {
+    width: 700px;
+    height: 700px;
+    background-color: rgb(140, 140, 132);
+    position: absolute;
+    border-radius: 90%;
+    top: -20%;
+    left: -20%;
+    z-index:5;
+    /* box-shadow: 20px 20px 5px rgb(145, 143, 143); */
+  }
+   
+  .circuloD {
+    width: 625px;
+    height: 625px;
+    background-color: rgb(147, 147, 135);
+    position: absolute;
+    border-radius: 90%;
+    top: -20%;
+    left:-20%;
+    z-index:6;
+    /* box-shadow: 20px 20px 5px rgb(115, 113, 113); */
+  }
+
+
+
+  .circuloMostrarFoto {
+    width: 550px;
+    height: 550px;   
+    position: absolute;
+    border-radius: 90%;
+    top: -20%;
+    left:-20%;
+    z-index:7;
+    background-image:url("fondo.jpg");
+    background-repeat: no-repeat;
+  
+
+  }
+  
+
+
+
+
+
+/* zona de botones y eventos ---- se cambió a estilo y a:
+#botonDesarrollo{
+  background-image:url(boton-desarrollo-web.jpg);
+  background-repeat:no-repeat;
+  height:20px;
+  width:150px;
+  border: 0px;
+
+  }
+  #botonDesarrollo:hover{
+    background-image:url(boton-desarrollo-OVER.jpg);
+    background-repeat:no-repeat;
+    height:20px;
+    width:150px;  
+    border: 0px;
+    }
+
+
+    #botonTecnico{
+      background-image:url(boton-tecnico.jpg);
+      background-repeat:no-repeat;
+      height:20px;
+      width:180px;    
+      border: 0px;
+      }
+    
+      #botonTecnico:hover{
+        background-image:url(boton-tecnico-OVER.jpg);
+        background-repeat:no-repeat;
+        height:20px;
+        width:180px;      
+        border: 0px;
+        }
+    
+        #botonAbout{
+          background-image:url(boton-ABOUT-ME.jpg);
+          background-repeat:no-repeat;
+          height:20px;
+          width:107px;        
+          border: 0px;
+          }
+        
+          #botonAbout:hover{
+            background-image:url(boton-ABOUT-OVER.jpg);
+            background-repeat:no-repeat;
+            height:20px;
+            width:107px;          
+            border: 0px;
+            }  */
+
+
