@@ -105,7 +105,7 @@ cursor:pointer; cursor: hand;
   #mostrarDesarrolloWeb, #mostrartecnico, #mostrarAbout {
     color: white;
     align-items: right;
-    width: 400px;
+    width: 300px;
     height: 400px;   
     position: absolute;
     top: 20%;
