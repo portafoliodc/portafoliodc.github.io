@@ -1,8 +1,18 @@
 
+/* EL LOADER */
+$(window).on('load', function () {
+    setTimeout(function () {
+  $(".loader-page").css({visibility:"hidden",opacity:"0"})
+}, 2000);
+   
+});
+
+
+
 window.onload=ocultar;   //cargamos la función ocultar al inicio.
 
 function ocultar(){
-  document.getElementById("mostrarDesarrolloWeb").style.display = "none"; //aquí hacemos oculto el DIV
+   document.getElementById("mostrarDesarrolloWeb").style.display = "none"; //aquí hacemos oculto el DIV
   document.getElementById("mostrarAbout").style.display = "none";
   document.getElementById("mostrarTecnico").style.display = "none"; 
 }
