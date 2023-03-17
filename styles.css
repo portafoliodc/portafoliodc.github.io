@@ -152,7 +152,7 @@ cursor:pointer; cursor: hand;
   #mostrarDesarrolloWeb, #mostrartecnico, #mostrarAbout {
     color: white;
     align-items: right;
-    width: 350px;
+    width: 320px;
     height: 400px;   
     position: absolute;
     top: 20%;
