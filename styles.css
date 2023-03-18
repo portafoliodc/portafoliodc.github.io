@@ -81,7 +81,7 @@ body {
  top:80%;
  right:38%;
  
-  color:rgb(255, 51, 153);
+  color:darkgray;
   font-size: 200%;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
 }
@@ -90,7 +90,7 @@ body {
   top:100%;
   right:32%;
   
-   color:rgb(255, 51, 153);
+   color:darkgray;
    font-size: 200%;
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
  }
@@ -121,6 +121,7 @@ body {
     z-index:19;   
   }
 }
+
 a {
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
 font-size: larger;
