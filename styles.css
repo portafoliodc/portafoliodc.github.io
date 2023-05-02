@@ -1,7 +1,7 @@
 /*EL LOADER */
 .loader-page {
   position: fixed;
-  z-index: 25000;
+  z-index: 25;
   background: rgb(255, 255, 255);
   left: 0px;
   top: 0px;
@@ -168,7 +168,7 @@ cursor:pointer; cursor: hand;
 
 
 /* animacion */
-#mov {
+.mov {
   animation-duration: 55s;
   animation-name: animLogo;
   animation-iteration-count: infinite;
