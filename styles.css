@@ -99,8 +99,9 @@ body {
   bottom: 2%;
   right: 20%;
   position:absolute;
-  z-index:12;
+  z-index:21;
 }
+
 #titulo{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
   font-size:120%;
